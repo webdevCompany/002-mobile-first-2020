@@ -1,0 +1,37 @@
+@media screen and (min-width: 916px) {
+  .parentMegaMenuIcon {
+    fill: $black-6;
+  }
+
+  .parentMegaMenu:hover .parentMegaMenuIcon {
+    fill: $red;
+  }
+
+  .ulListOfSubmenus {
+    display: none;
+  }
+  .submenu {
+    background-color: transparent;
+    display: block;
+  }
+
+  .submenu__li__a {
+    color: #946205;
+  }
+
+  .submenu__li__a:hover {
+    background-color: transparent;
+    color: #f73205;
+    border: 1px solid #ce2600;
+  }
+
+
+// -----------------------------
+// JAVASCRIPT open submenus on MOBILE (default is flex-direction: row // it needs to be column on large screens)
+.show_all_submenus {
+  display: flex;
+  flex-direction: row;
+}
+// -----------------------------
+  
+}

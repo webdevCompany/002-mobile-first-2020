@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  box-sizing: border-box;
+  line-height: 1;
+  min-width: 320px;
+  max-width: 1366px;
+  position: relative;
+  top: 0;
+  left: 0;
+  font-family: 'Estrangelo Edessa';
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-size: inherit;
+}

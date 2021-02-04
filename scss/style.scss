@@ -1,0 +1,42 @@
+@import '01-helpers/01--reset';
+
+@import '02-basic/01--variables';
+
+@import '02-basic/02--typography--00';
+@import '02-basic/02--typography--01-header';
+@import '02-basic/02--typography--02-hero';
+@import '02-basic/02--typography--03-work';
+@import '02-basic/02--typography--04-services';
+@import '02-basic/02--typography--05-clients';
+@import '02-basic/02--typography--06-subscribe';
+@import '02-basic/02--typography--07-footer';
+@import '02-basic/03--basic';
+
+@import '03-layout/000--header';
+@import '03-layout/001--header--mq';
+@import '03-layout/010--hero';
+@import '03-layout/011--hero--mq';
+@import '03-layout/020--work';
+@import '03-layout/030--services';
+@import '03-layout/031--services--mq';
+@import '03-layout/040--clients-comments';
+@import '03-layout/041--clients-comments--mq';
+
+@import '03-layout/050--gallery';
+@import '03-layout/051--gallery--mq';
+
+@import '03-layout/060--subscribe';
+@import '03-layout/061--subscribe--mq';
+@import '03-layout/070--footer';
+
+@import '04-components/_00--00--header--megamenu';
+@import '04-components/_00--01--header--megamenu--mq';
+
+@import '04-components/00--10--clients__slider';
+@import '04-components/00--11--clients__slider--mq';
+
+@import '04-components/_05--gallery--hover--effect.scss';
+
+@import '04-components/06--subscribe-submit-button';
+
+@import '04-components/08--videos';

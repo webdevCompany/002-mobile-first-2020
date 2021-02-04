@@ -1,0 +1,94 @@
+
+.parentMegaMenu {
+  width: auto;
+  height: auto;
+}
+
+.parentMegaMenuIcon {
+  width: 15px;
+  height: 15px;
+  margin-left: 10px;
+  fill: $black-6;
+}
+
+.parentMegaMenu:hover .parentMegaMenuIcon {
+  fill: $red;
+}
+
+.ulListOfSubmenus {
+  width: 100%;
+  height: auto;
+  display: none;
+  flex-direction: column;
+}
+
+.ulListOfSubmenus__liSUBMENUandTITLE {
+  width: 100%;
+  height: auto;
+}
+
+
+
+
+.ulListOfSubmenus {
+  background-color: $black;
+  display: flex;
+  display: none;
+}
+
+
+.ulListOfSubmenus__liSUBMENUandTITLE {
+  border-color: transparent;
+}
+
+.submenu {
+  width: 100%;
+  height: auto;
+  padding-right: 10px;
+  background: transparent;
+  border-top: 1px solid $red-light;
+  border-bottom: 1px solid $red-light;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  display: none;
+}
+
+.submenu__li {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+}
+
+// CREATE A MEDIA QUERIE JAVASCRIPT ---- ONLY ACTIVE ON MOBILE DEVICES
+.activeSubmenuMobile {
+  background-color: $black-2;
+}
+// CREATE A MEDIA QUERIE JAVASCRIPT ---- ONLY ACTIVE ON MOBILE DEVICES
+
+//// this creates active nav li (parent Megamenu will be color "RED" ////
+.addRedColor {
+  color: $red;
+  fill: $red;
+}
+//// this creates active nav li (parent Megamenu will be color "RED" ////
+/* =========== */
+/* classes in javascript must be created at the end of css file  */
+/* because the class can be added according to the position on the css stylesheet */
+
+
+// .showHide {
+.show_all_submenus {
+  display: flex;
+  flex-direction: column;
+}
+
+
+// .showHide2 {
+.open_close_megamenu {
+  display: flex;
+}
+/* =========== */
+
+.open_close_submenu_mobile {
+  display: block;
+}

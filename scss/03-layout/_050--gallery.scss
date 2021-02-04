@@ -1,0 +1,89 @@
+.completeGallery {
+  width: 100%;
+  height: auto;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  background-color: $black;
+}
+
+.completeGallery__header {
+  width: auto;
+  height: auto;
+  margin-bottom: 40px;
+  padding-left: 5%;
+  padding-right: 5%;
+  color: $black-9;
+}
+
+.completeGallery__header__p {
+  line-height: 1.6;
+}
+
+.gallery {
+  width: 92%;
+  height: auto;
+  margin: auto;
+  padding: 2%;
+  border-radius: 30px;
+  background-color: $black;
+  border: 20px solid $light-grey;
+}
+
+.gallery__figure {
+  width: 100%;
+  height: 56.26%;
+  margin-bottom: 30px;
+  position: relative;
+  box-shadow: 0px 0px 4px $black;
+}
+
+.gallery__figure__divImage::before {
+  background: $gradient-1;
+}
+
+.gallery__figure__img {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  transition: all 0.3s;
+  position: relative;
+}
+
+.gallery__figure__img::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  background: $gradient-2;
+}
+
+.gallery__figure__icon {
+  position: absolute;
+  top: calc(50% - 50px);
+  left: calc(50% - 25px);
+  width: 50px;
+  height: 50px;
+  transition: all 0.2s;
+  border-radius: 50%;
+  z-index: 1000;
+  fill: $black-3;
+  border: 5px solid $white;
+  background: $white;
+}
+
+.figcaption--header {
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 5px;
+  color: $red;
+}
+
+.figcaption--text {
+  font-size: 14px;
+  display: inline;
+  color: $black-6;
+}

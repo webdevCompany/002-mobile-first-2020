@@ -1,0 +1,53 @@
+.clients__header__h2 {
+  margin-top: 65px;
+  color: $red-light;
+}
+
+.clients__header__p {
+  font-size: 30px;
+  color: $light-grey;
+}
+
+.carousel__figure__blockquote {
+  font-family: 'Myriad Pro';
+  font-size: 16px;
+  line-height: 1.75;
+  margin-top: 10px;
+  margin-bottom: 22px;
+  font-style: italic;
+}
+
+.carousel__figure__blockquote__cite {
+  display: block;
+  font-family: 'Myriad Pro';
+  font-size: 17px;
+  margin-left: 13px;
+  margin-top: 22px;
+}
+
+@media screen and (min-width: 540px) {
+  .clients__header__h2 {
+    margin-top: 54px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+  }
+
+  .clients__header__p {
+    font-size: 30px;
+    margin-left: 20px;
+  }
+
+  .carousel__figure__blockquote {
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 1.6;
+    margin-top: 0px;
+    font-size: 17px;
+  }
+
+  .carousel__figure__blockquote__cite {
+    display: block;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+}

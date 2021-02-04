@@ -1,0 +1,77 @@
+.header__hero__wrapper {
+  width: 100%;
+  min-height: 420px;
+  height: auto;
+  background-color: $black;
+}
+
+// WEBSITE INTRO ANIMATION -
+// WHEN YOU OPEN THE WEBSITE THE SCREEN GOES FROM BLACK TO NORMAL
+.introFromBlack {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  opacity: 1;
+  z-index: 1000;
+  animation-name: introBlack;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes introBlack {
+  0% {
+    opacity: 1;
+  }
+  30% {
+    z-index: -1;
+  }
+  80% {
+    opacity: 0;
+    z-index: -1;
+  }
+  100% {
+    opacity: 0;
+    z-index: -1;
+  }
+}
+// END -WEBSITE INTRO ANIMATION - ///////////////////////////////
+
+.header {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: $black;
+}
+
+.toggleIconNavbar {
+  width: 30px;
+  height: 30px;
+  margin-right: 4.68%;
+  cursor: pointer;
+  fill: $red-light;
+}
+
+.nav {
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+  display: none;
+  border: 2px solid $black;
+}
+
+.nav__ul {
+  width: 100%;
+  height: auto;
+  background-color: transparent;
+}
+
+.show_Hide_Navbar_On_Mobile {
+  display: block;
+}

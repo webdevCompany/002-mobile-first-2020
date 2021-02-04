@@ -1,0 +1,33 @@
+.work {
+  background-color: $black-1;
+}
+
+.work__header__h2 {
+  background-color: $black-3;
+  color: $red-light;
+  letter-spacing: -1.28px;
+  display: inline;
+}
+
+.work__component__header__h3 {
+  color: $red-light;
+  padding-bottom: 5px;
+}
+
+.work__component__p {
+  color: $black-8;
+  line-height: 1.6;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.work__component__link {
+  background-color: transparent;
+  border: 2px solid $red-light;
+  color: $black-6;
+}
+
+.work__component__link:hover {
+  background-color: $red;
+  color: $white;
+}

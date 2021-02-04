@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'Myriad Pro';
+  src: local('../../fonts/Myriad Pro Regular'),
+    local('../../fonts/MyriadPro-Regular'),
+    url('MyriadPro-Regular.woff2') format('woff2'),
+    url('MyriadPro-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Estrangelo Edessa';
+  src: local('../../fonts/Estrangelo Edessa'),
+    local('../../fonts/EstrangeloEdessa'),
+    url('EstrangeloEdessa.woff2') format('woff2'),
+    url('EstrangeloEdessa.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body * {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+  letter-spacing: -1.28px;
+}
+
+h1 {
+  font-size: calc(43px + (70 - 43) * (100vw - 320px) / (1366 - 320));
+}
+
+h2 {
+  font-size: calc(30px + (40 - 30) * (100vw - 320px) / (1366 - 320));
+}
+
+h3 {
+  font-size: calc(22px + (20 - 22) * (100vw - 320px) / (1366 - 320));
+}

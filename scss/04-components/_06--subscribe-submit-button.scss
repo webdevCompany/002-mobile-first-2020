@@ -1,0 +1,40 @@
+
+
+button[type="submit"] {
+  width: 100%;
+  height: 46px;
+  line-height: 46px;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 18px;
+  outline: 0;
+  transition: .5s;
+  overflow: hidden;
+}
+
+button[type="submit"]:after {
+  content: ' marco_trabajo@yahoo.com';
+  font-size: 16px;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  display: block;
+  position: relative;
+  top: -50px;
+  left: 0px;
+  opacity: 0;
+  transition: .3s;
+}
+
+button[type="submit"]:active:after {
+  opacity: 1;
+}
+
+
+@media screen and (min-width: 450px) {
+  
+  button[type="submit"] {
+    width: 90%;
+  }
+
+}

@@ -1,0 +1,130 @@
+.logo {
+  font-size: 30.73px;
+  margin-left: 0px;
+  font-weight: bold;
+  padding: 14px;
+  border-radius: 8px;
+  color: $red;
+}
+
+.nav__ul__li {
+  width: 100%;
+  height: auto;
+  line-height: 40px;
+  font-size: 20px;
+  font-size: 16px;
+  text-align: left;
+  cursor: pointer;
+  padding: 10px 4.68% 10px 4.68%;
+  transition: all 0s;
+  color: $black-5;
+}
+
+.nav__ul__li:hover {
+  color: $white;
+}
+
+.nav__ul__li__a {
+  letter-spacing: 0px;
+  font-size: inherit;
+}
+
+.submenuTitle {
+  // color: $black-6;
+  color: $red-light;
+  display: block;
+  font-size: 16px;
+  list-style: circle;
+  font-weight: 100;
+  position: relative;
+  // padding-left: 20px;
+}
+
+.submenuTitle::after {
+  content: '+';
+  position: absolute;
+  top: 0;
+  font-size: 16px;
+  right: 0px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.submenu__li__a {
+  color: $blue-1;
+  border: 1px dotted transparent;
+}
+
+.submenu__li__a:hover {
+  color: $black-9;
+}
+
+@media screen and (min-width: 916px) {
+  .submenuTitle::after {
+    display: none;
+  }
+}
+
+.submenu__li {
+  padding-left: 20px;
+}
+
+.submenu__li__a {
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0s;
+}
+
+@media screen and (min-width: 500px) {
+  .logo {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (min-width: 916px) {
+  .nav__ul__li {
+    border-bottom: 1px solid transparent;
+    color: $black-6;
+    text-align: center;
+    line-height: 40px;
+    transition: all 0s;
+    width: auto;
+    padding-left: 0px;
+    font-size: 16px;
+  }
+
+  .nav__ul__li:hover {
+    color: $red;
+  }
+
+  .nav__ul__li__a {
+    letter-spacing: 0px;
+    font-size: 16px;
+  }
+
+  .nav__link--active {
+    padding: 5px;
+  }
+
+  .submenuTitle {
+    display: block;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+  }
+
+  .submenuTitle:hover {
+    cursor: default;
+  }
+
+  .submenu__li__a {
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+  }
+}

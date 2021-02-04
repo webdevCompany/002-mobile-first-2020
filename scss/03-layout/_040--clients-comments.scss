@@ -1,0 +1,51 @@
+.clients {
+  width: 100%;
+  min-height: 500px;
+  height: auto;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.clients {
+  position: relative;
+  z-index: 10;
+}
+
+.clients__left {
+  width: 50%;
+  box-sizing: border-box;
+  display: none;
+  background-color: $black-1;
+}
+
+.clients__left__videoBackground {
+  position: absolute;
+  top: 20%;
+  left: 7%;
+  width: 90%;
+  height: 60%;
+  object-fit: cover;
+  opacity: 0.4;
+}
+
+.clients__right {
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+  background-color: $black-1;
+}
+
+.clients__header {
+  width: 100%;
+  height: 148px;
+  margin-bottom: 20px;
+}
+
+.clients__content {
+  width: 100%;
+  margin: auto;
+}

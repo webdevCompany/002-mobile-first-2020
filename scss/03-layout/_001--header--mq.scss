@@ -1,0 +1,109 @@
+
+
+
+
+ @media screen and (min-width: 652px) {
+   .header__hero__wrapper {
+     width: 100%;
+     min-height: 550px;
+     height: auto;
+   }
+   
+ }
+ 
+
+@media screen and (min-width: 916px){
+   .header__hero__wrapper {
+     min-height: 550px;
+   }
+
+   .header {
+     flex-wrap: nowrap;
+   }
+ 
+   .toggleIconNavbar {
+     display: none;
+   }
+ 
+   .nav {
+    width: auto;
+     height: auto;
+     border: 2px solid transparent;
+     display: block;
+     margin-right: 30px;
+   }
+ 
+   .nav__ul {
+     display: flex;
+     width: auto;
+     justify-content: space-between;
+   }
+
+   .nav__ul__li {
+    padding: 0px 12px;
+   }
+
+   .ulListOfSubmenus {
+     position: absolute;
+     top: 70px;
+     left: 0;
+     height: 100vh;
+     min-height: 500px;
+     padding: 31px 7%;
+     flex-direction: row;
+     justify-content: space-around;
+     cursor: default;
+     z-index: 40;
+     display: flex;
+     display: none;
+   }    
+     
+   .ulListOfSubmenus__liSUBMENUandTITLE {
+    width: auto;
+    width: 20%;
+    min-width: 180px;
+   }
+  
+  .submenuTitle {
+    padding: 0px;
+  }
+
+  .submenu {
+    display: block;
+    margin-top: 15px;
+    padding: 0px;
+  }  
+  
+   .submenu__li {
+     height: 40px;
+     line-height: 40px;
+     padding-left: 0px;
+   }  
+ 
+
+
+
+
+  /* =========== */
+  /* classes in javascript must be created at the end of css file  */
+  /* because the class can be added according to the position on the css stylesheet */
+  
+    // .showHide {
+    .show_Hide_Navbar_On_Mobile {
+      display: flex;
+    }
+
+
+
+    // .showHide2 {
+    .open_close_megamenu {
+      display: block;
+    }
+
+
+    /* =========== */
+  
+    .show_all_submenus {
+      display: flex;
+    }
+  }
